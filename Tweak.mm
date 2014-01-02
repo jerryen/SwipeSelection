@@ -208,14 +208,6 @@
 -(CGRect)textRectForBounds:(CGRect)rect;
 @end
 
-@interface UIKeyboardTaskQueue
--(void)finishExecution;
-@end
-
-@interface UIKeyboardTaskExecutionContext
-@property(readonly) UIKeyboardTaskQueue * executionQueue;
-@end
-
 
 
 
